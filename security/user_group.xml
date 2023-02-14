@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record model="ir.module.category" id="hotel_room_management">
+             <field name="name">Hotel Room Management</field>
+             <field name="description">Hotel Room Management</field>
+             <field name="sequence">20</field>
+        </record>
+        <record id="hotel_reception_access" model="res.groups">
+            <field name="name">Receptionist</field>
+            <field name="category_id" ref="hotel_room_management"/>
+        </record>
+        <record id="hotel_manager_access" model="res.groups">
+            <field name="name">Manager</field>
+            <field name="category_id" ref="hotel_room_management"/>
+            <field name="implied_ids" eval="[(4, ref('hotel_reception_access'))]"/>
+        </record>
+    </data>
+</odoo>
