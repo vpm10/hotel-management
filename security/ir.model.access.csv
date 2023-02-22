@@ -32,3 +32,7 @@ access_payment_calculation_receptionist,access_payment_calculation,model_payment
 access_report_wizard_manager,access_report_wizard,model_report_wizard,hotel_manager_access,1,1,1,1
 access_report_wizard_receptionist,access_report_wizard,model_report_wizard,hotel_reception_access,1,0,0,0
 
+access_report_js_manager,access_report_js,model_report_js,hotel_manager_access,1,1,1,1
+access_report_js_receptionist,access_report_js,model_report_js,hotel_reception_access,1,0,0,0
+
+

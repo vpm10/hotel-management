@@ -16,12 +16,11 @@
 
                     <field name="date_to"/>
                         <field name="guest_id"/>
-<!--                        <field name="partner_id"/>-->
                     </group>
 
                     <footer>
-                        <button name="action_report" class="oe_highlight" string="Print Report" type="object"/>
-                        <button name="action_report_xlsx" class="oe_highlight" string="Print XLSX Report" type="object"/>
+                        <button name="action_report" class="oe_highlight" string="Print PDF Report" type="object"/>
+                        <button name="action_report_xlsx" class="oe_highlight" string="Print Excel Report" type="object"/>
                         <button string="Cancel" special="cancel"/>
 
                     </footer>
